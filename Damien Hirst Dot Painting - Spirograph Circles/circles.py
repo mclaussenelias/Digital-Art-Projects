@@ -35,7 +35,7 @@ class CircleGrid:
                 for column in range(columns):
                     # Coordinates are adjusted to center array of dots on the canvas:
                     x = ((row * radius) * 4) - (((rows - 1) * 4 * radius) / 2)
-                    y = (((column * radius) * 4) - (((columns - 1) * 4 * radius) / 2) - radius)
+                    y = (((column * radius) * 4) - ((columns - 1) * 4 * radius) / 2)
                     coordinate = (x, y)
                     coordinates.append(coordinate)
             self.coordinates = coordinates
