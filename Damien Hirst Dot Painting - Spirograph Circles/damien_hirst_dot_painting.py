@@ -56,6 +56,11 @@ for coordinate in circle_grid.coordinates:
 
 print("Painting finished.  Enjoy!")
 
+# Check for centering of dots within canvas:
+
+# turtle.setposition(0, 0)
+# turtle.showturtle()
+
 screen = Screen()
 screen.exitonclick()
 
